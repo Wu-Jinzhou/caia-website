@@ -59,23 +59,22 @@ export default function Home() {
             </p>
 
             <div className="text-lg mb-8 space-y-2">
-              <p className="pl-4">
-                <span className="font-bold text-cornell-red">1.</span> Experts
-                predict that we likely will see human-level AI within our
-                lifetimes.
+              <p className={`pl-4 ${youngSerif.className}`}>
+                <span className="text-cornell-red">1.</span> Experts predict
+                that we likely will see human-level AI within our lifetimes.
               </p>
-              <p className="pl-4">
+              <p className={`pl-4 ${youngSerif.className}`}>
                 <span className="font-bold text-cornell-red">2.</span> Aligning
                 powerful AI systems with human values is an extremely difficult,
                 and currently neglected, technical and policy problem.
               </p>
-              <p className="pl-4">
+              <p className={`pl-4 ${youngSerif.className}`}>
                 <span className="font-bold text-cornell-red">3.</span> The
                 stakes of AI alignment are enormous: succeeding could bring
                 about unprecedented human flourishing, while failure could
                 result in human disempowerment or even extinction.
               </p>
-              <p className="mt-4">
+              <p className="text-xl mt-4">
                 We also think that AI safety is a highly interesting and
                 exciting problem, with open opportunities for many more
                 researchers to make meaningful progress.
