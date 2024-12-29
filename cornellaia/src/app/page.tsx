@@ -1,25 +1,32 @@
+import { Young_Serif } from "next/font/google";
+
+const youngSerif = Young_Serif({
+  weight: "400",
+  subsets: ["latin"],
+});
+
 export default function Home() {
   return (
     <>
       <main className="min-h-screen">
         <div className="container mx-auto px-4 py-16">
           <div className="max-w-4xl">
-            <h1 className="text-6xl font-bold text-cornell-red mb-4">
+            <h1
+              className={`text-6xl font-bold text-cornell-red mb-4 tracking-tighter ${youngSerif.className}`}
+            >
               AI will change the world as we know it.
             </h1>
 
             <p className="text-xl italic mb-4">
-              let's ensure those changes are positive.
+              Let's ensure those changes are positive.
             </p>
-
             <a
               href="#"
               className="text-xl text-gray-600 hover:underline mb-8 inline-block"
             >
               Join our mailing list →
             </a>
-
-            <div className="mb-12 mt-8">
+            {/* <div className="mb-12 mt-8">
               <p className="text-xl mb-4">
                 Apply to our Intro to ML Safety Fellowship, by [Date] here:
               </p>
@@ -29,7 +36,7 @@ export default function Home() {
               >
                 CAIA Fellowship
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </main>
@@ -91,19 +98,18 @@ export default function Home() {
 
       <section className="py-16 container mx-auto px-4">
         <div className="max-w-4xl">
-          <h2 className="text-3xl font-mono mb-12">Selected Research</h2>
+          <h2 className="text-3xl mb-12">Selected Research</h2>
 
           <div className="relative">
             {/* Carousel container */}
             <div className="overflow-hidden">
               <div className="flex gap-8 overflow-x-auto snap-x snap-mandatory pb-4">
-                {/* Paper Card 1 */}
-                <div className="min-w-[200px] flex-shrink-0 snap-start">
-                  <div className="aspect-[1308/1696] relative mb-4">
+                <div className="w-[20%] flex-shrink-0 snap-start">
+                  <div className="aspect-[3/4] relative mb-4">
                     <img
-                      src="/paper-preview-1.png"
+                      src="/paper-progressgym.png"
                       alt="Paper preview"
-                      className="w-full h-full object-cover"
+                      className="w-full h-full object-contain"
                     />
                   </div>
                   <h3 className="font-semibold mb-2 text-sm">
@@ -120,24 +126,24 @@ export default function Home() {
                   </div>
                 </div>
 
-                {/* Paper Card 2 */}
-                <div className="min-w-[200px] flex-shrink-0 snap-start">
-                  <div className="aspect-[1308/1696] relative mb-4">
+                <div className="w-[20%] flex-shrink-0 snap-start">
+                  <div className="aspect-[3/4] relative mb-4">
                     <img
-                      src="/paper-preview-2.png"
+                      src="/paper-progressgym.png"
                       alt="Paper preview"
-                      className="w-full h-full object-cover"
+                      className="w-full h-full object-contain"
                     />
                   </div>
                   <h3 className="font-semibold mb-2 text-sm">
-                    Open Problems and Fundamental Limitations of RLHF
+                    ProgressGym: Alignment with a Millennium of Moral Progress
                   </h3>
-                  <p className="text-gray-600 mb-2 text-sm">
-                    Stephen Casper, Tony Wang, Eric J. Michaud
-                  </p>
+                  <p className="text-gray-600 mb-2 text-sm">Jasmine Li</p>
                   <div className="flex gap-2 flex-wrap">
-                    <span className="bg-green-100 text-green-800 text-xs px-2 py-1 rounded">
-                      RLHF
+                    <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">
+                      NeurIPS 2024
+                    </span>
+                    <span className="bg-red-100 text-red-800 text-xs px-2 py-1 rounded">
+                      Benchmarks
                     </span>
                   </div>
                 </div>
@@ -163,34 +169,29 @@ export default function Home() {
 
       <section className="py-16 container mx-auto px-4">
         <div className="max-w-4xl">
-          <h2 className="text-3xl font-mono mb-12">
-            Organizations we work with
-          </h2>
+          <h2 className="text-3xl mb-12">Sponsors and Organizations</h2>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-12 mb-8">
-            <div className="flex items-center justify-center">
-              <img src="/assets/rand.svg" alt="RAND" className="max-h-16" />
-            </div>
-            {/* <div className="flex items-center justify-center">
-              <img src="/csai.png" alt="MIT CSAI" className="max-h-16" />
-            </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-16 mb-8">
             <div className="flex items-center justify-center">
               <img
-                src="/eleutherai.png"
-                alt="EleutherAI"
-                className="max-h-16"
+                src="/openphil.png"
+                alt="Open Philanthropy"
+                className="max-h-24"
               />
             </div>
             <div className="flex items-center justify-center">
-              <img
-                src="/redwood.png"
-                alt="Redwood Research"
-                className="max-h-16"
-              />
-            </div> */}
+              <img src="/rand.svg" alt="RAND" className="max-h-24" />
+            </div>
+            <div className="flex items-center justify-center">
+              <img src="/spar.png" alt="Berkeley SPAR" className="max-h-24" />
+            </div>
+
+            <div className="flex items-center justify-center">
+              <img src="/saif.svg" alt="Safe AI Forum" className="max-h-24" />
+            </div>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-12 mb-12">
+          {/* <div className="grid grid-cols-2 md:grid-cols-4 gap-12 mb-12">
             <div className="flex items-center justify-center">
               <img src="/anthropic.png" alt="Anthropic" className="max-h-12" />
             </div>
@@ -203,11 +204,11 @@ export default function Home() {
             <div className="flex items-center justify-center">
               <img src="/metr.png" alt="METR" className="max-h-12" />
             </div>
-          </div>
+          </div> */}
 
           <p className="text-sm text-gray-600">
             This is a list of some of the organizations our members have worked
-            with. Not all organisations listed endorse or are affiliated with
+            with. Not all organisations listed sponsor or are affiliated with
             CAIA.
           </p>
         </div>
