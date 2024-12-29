@@ -43,12 +43,12 @@ export default function GetInvolved() {
             .
           </p>
 
-          <a
+          {/* <a
             href="#"
             className="inline-block bg-cornell-red text-white px-8 py-4 rounded-md hover:bg-opacity-90 transition"
           >
             Apply here by February 9, 2025, 11:59pm EST.
-          </a>
+          </a> */}
         </div>
 
         <div className="max-w-4xl">
@@ -56,13 +56,9 @@ export default function GetInvolved() {
             Reading Group
           </h1>
 
-          <p className="text-xl mb-6">
-            Add description here
-          </p>
+          <p className="text-xl mb-6">Add description here</p>
 
-          <p className="text-xl mb-8">
-            further description
-          </p>
+          <p className="text-xl mb-8">further description</p>
 
           <a
             href="#"

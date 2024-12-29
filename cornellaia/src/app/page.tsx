@@ -8,21 +8,21 @@ const youngSerif = Young_Serif({
 export default function Home() {
   return (
     <>
-      <main className="min-h-screen">
-        <div className="container mx-auto px-4 py-16">
+      <main className="">
+        <div className="container mx-auto px-4 py-12">
           <div className="max-w-4xl">
             <h1
-              className={`text-6xl font-bold text-cornell-red mb-4 tracking-tighter ${youngSerif.className}`}
+              className={`text-6xl font-bold text-cornell-red mb-8 tracking-tighter ${youngSerif.className}`}
             >
               AI will change the world as we know it.
             </h1>
 
-            <p className="text-xl italic mb-4">
+            <p className="text-xl italic mb-8">
               Let's ensure those changes are positive.
             </p>
             <a
               href="#"
-              className="text-xl text-gray-600 hover:underline mb-8 inline-block"
+              className="text-xl text-gray-600 hover:underline mb-4 inline-block"
             >
               Join our mailing list →
             </a>
@@ -41,7 +41,7 @@ export default function Home() {
         </div>
       </main>
 
-      <section className="bg-gray-100 py-16">
+      <section className="bg-gray-100 py-12">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl">
             <p className="text-xl mb-8">
