@@ -4,7 +4,7 @@ export default function GetInvolved() {
       <section className="py-16 container mx-auto px-4">
         <div className="max-w-4xl">
           <h1 className="text-4xl font-bold text-cornell-red mb-8">
-            Introductory Technical AI Safety Fellowship
+            Introduction to AI Safety Fellowship
           </h1>
 
           <p className="text-xl mb-6">
@@ -42,6 +42,20 @@ export default function GetInvolved() {
             </a>
             .
           </p>
+        </div>
+
+        <div className="max-w-4xl">
+          <h1 className="text-4xl font-bold text-cornell-red mb-8">
+            Reading Groups
+          </h1>
+
+          <p className="text-xl mb-6">
+            CAIA runs weekly reading groups covering two tracks: technical
+            machine learning and policy. Reading groups are led by experienced
+            TAs; cover recent significant papers or policy updates in AI/ML
+            safety; and meet weekly in small groups. Dinner is provided and
+            there is no additional work outside of meetings.
+          </p>
 
           {/* <a
             href="#"
@@ -53,19 +67,22 @@ export default function GetInvolved() {
 
         <div className="max-w-4xl">
           <h1 className="text-4xl font-bold text-cornell-red mb-8">
-            Reading Group
+            Student Research
           </h1>
 
-          <p className="text-xl mb-6">Add description here</p>
+          <p className="text-xl mb-6">
+            CAIA supports original student research in AI safety. If you are
+            interested in beginning technical or policy research, reach out to
+            cornellaialignment@gmail.com to be connected with resources and a
+            mentor.
+          </p>
 
-          <p className="text-xl mb-8">further description</p>
-
-          <a
+          {/* <a
             href="#"
             className="inline-block bg-cornell-red text-white px-8 py-4 rounded-md hover:bg-opacity-90 transition"
           >
             Apply here by February 9, 2025, 11:59pm EST.
-          </a>
+          </a> */}
         </div>
       </section>
     </main>
