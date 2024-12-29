@@ -50,18 +50,37 @@ export default function Home() {
               the better.
             </p>
 
-            <p className="text-xl mb-8">
-              We think that reducing risks from advanced AI is one of the most
-              important problems of our time. Experts anticipate that we will
-              see human-level AI within our lifetimes, but aligning these
-              systems with human values is a daunting and neglected technical
-              and policy problem. The stakes are also enormous: success could
-              bring about unprecedented human flourishing, while failure could
-              result in human disempowerment or even extinction. We also think
-              that AI safety a highly interesting and exciting problem, with
-              open opportunities for many more researchers to make progress on
-              it.
+            <p className="text-xl mb-4">
+              We think that reducing risks from advanced AI is{" "}
+              <span className="italic text-cornell-red">
+                one of the most important problems of our time
+              </span>
+              . Why?
             </p>
+
+            <div className="text-lg mb-8 space-y-2">
+              <p className="pl-4">
+                <span className="font-bold text-cornell-red">1.</span> Experts
+                predict that we likely will see human-level AI within our
+                lifetimes.
+              </p>
+              <p className="pl-4">
+                <span className="font-bold text-cornell-red">2.</span> Aligning
+                powerful AI systems with human values is an extremely difficult,
+                and currently neglected, technical and policy problem.
+              </p>
+              <p className="pl-4">
+                <span className="font-bold text-cornell-red">3.</span> The
+                stakes of AI alignment are enormous: succeeding could bring
+                about unprecedented human flourishing, while failure could
+                result in human disempowerment or even extinction.
+              </p>
+              <p className="mt-4">
+                We also think that AI safety is a highly interesting and
+                exciting problem, with open opportunities for many more
+                researchers to make meaningful progress.
+              </p>
+            </div>
 
             <p className="text-xl mb-8">
               CAIA runs an 8-week introductory AI alignment fellowship, covering
@@ -78,26 +97,31 @@ export default function Home() {
             </p>
 
             <p className="text-xl mb-8">
-              Interested in helping shape the future of AI safety?
+              Interested in helping shape the future of AI safety? Express
+              interest in our programs by{" "}
+              <a
+                href="https://airtable.com/appWFSZWeVJ4rXa6l/pag8SMoRy0Hm9knXF/form"
+                className="inline text-cornell-red hover:underline"
+              >
+                joining our mailing list
+              </a>
+              .
             </p>
 
             <div className="space-y-4">
-              <a href="#" className="block text-cornell-red hover:underline">
+              {/* <a href="#" className="block text-cornell-red hover:underline">
                 Apply to our introductory AI alignment fellowship
               </a>
               <a href="#" className="block text-cornell-red hover:underline">
                 Apply to our reading groups
-              </a>
-              <a href="#" className="block text-cornell-red hover:underline">
-                Join our mailing list
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
       </section>
 
       <section className="py-16 container mx-auto px-4">
-        <div className="max-w-4xl">
+        <div className="">
           <h2 className="text-3xl mb-12">Selected Research</h2>
 
           <div className="relative">
@@ -129,21 +153,22 @@ export default function Home() {
                 <div className="w-[20%] flex-shrink-0 snap-start">
                   <div className="aspect-[3/4] relative mb-4">
                     <img
-                      src="/paper-progressgym.png"
+                      src="/paper-scalinglaws.png"
                       alt="Paper preview"
                       className="w-full h-full object-contain"
                     />
                   </div>
                   <h3 className="font-semibold mb-2 text-sm">
-                    ProgressGym: Alignment with a Millennium of Moral Progress
+                    Scaling laws for contrastive activation addition with
+                    refusal mechanisms and Llama 2 models
                   </h3>
                   <p className="text-gray-600 mb-2 text-sm">Jasmine Li</p>
                   <div className="flex gap-2 flex-wrap">
                     <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">
-                      NeurIPS 2024
+                      SPAR S24
                     </span>
                     <span className="bg-red-100 text-red-800 text-xs px-2 py-1 rounded">
-                      Benchmarks
+                      Model Steering
                     </span>
                   </div>
                 </div>
@@ -168,10 +193,10 @@ export default function Home() {
       </section>
 
       <section className="py-16 container mx-auto px-4">
-        <div className="max-w-4xl">
+        <div className="">
           <h2 className="text-3xl mb-12">Sponsors and Organizations</h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-16 mb-8">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-16 mb-8">
             <div className="flex items-center justify-center">
               <img
                 src="/openphil.png"
