@@ -8,13 +8,36 @@ export default function GetInvolved() {
           </h1>
 
           <p className="text-xl mb-6">
-            We run an
+            CAIA runs an{" "}
             <span className="font-semibold">
               8-week introductory fellowship on AI safety
             </span>
-            . Topics covered span both technical alignment and policy and include neural network interpretability, learning
-            from human feedback, goal misgeneralization in reinforcement
-            learning settings, and potential catastrophic risks from advanced AI
+            , covering both technical and policy topics. Topics covered include
+            include neural network interpretability,
+            <span className="text-cornell-red">
+              <sup>
+                <a
+                  href="https://distill.pub/2020/circuits/zoom-in/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  1
+                </a>
+              </sup>
+            </span>{" "}
+            learning from human feedback,
+            <span className="text-cornell-red">
+              <sup>
+                <a
+                  href="https://arxiv.org/abs/2009.01325"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  2
+                </a>
+              </sup>
+            </span>{" "}
+            US AI policy, and potential catastrophic risks from advanced AI
             systems. The program is open to both undergraduate and graduate
             students. Students with machine learning experience are especially
             encouraged to apply, but no prior experience is required.
@@ -22,18 +45,19 @@ export default function GetInvolved() {
 
           <p className="text-xl mb-8">
             The fellowship meets weekly in small groups, with dinner provided
-            and no additional work outside of meetings. Our curriculum is{" "}
+            and no additional work outside of meetings. Our curriculum is
+            adapted from OpenAI's{" "}
             <a
               href="https://course.aisafetyfundamentals.com/alignment"
               className="text-cornell-red hover:underline"
               target="_blank"
               rel="noopener noreferrer"
             >
-              based on a course developed by OpenAI researcher Richard Ngo
-            </a>
-            . See syllabus{" "}
+              AI Safety Fundamentals
+            </a>{" "}
+            course. See the Spring 2025 syllabus{" "}
             <a
-              href="https://docs.google.com/document/d/1wnKxJPlA3YsUs4K_-IoWHD6flND_4SJs1rOBuC8sGsw/edit?tab=t.0#heading=h.c6ivfpz8bbwa"
+              href="https://docs.google.com/document/d/1OuJmW-3W5qZfCH9PtcPNkskU_ySpQIb_oF-8lhmZqLc/edit?tab=t.0#heading=h.c6ivfpz8bbwa"
               className="text-cornell-red hover:underline"
               target="_blank"
               rel="noopener noreferrer"
@@ -42,6 +66,13 @@ export default function GetInvolved() {
             </a>
             .
           </p>
+
+          <a
+            href="#"
+            className="inline-block bg-cornell-red text-bold text-white px-4 py-3 rounded-lg bg-opacity-90 transition mb-10"
+          >
+            Apply here by February 9, 2025, 11:59pm EST.ADD THE LINK!
+          </a>
         </div>
 
         <div className="max-w-4xl">
@@ -50,21 +81,20 @@ export default function GetInvolved() {
           </h1>
 
           <p className="text-xl mb-6">
-            CAIA runs a weekly technical ML reading group. Reading group
+            CAIA runs a weekly open technical ML reading group. Reading group
             sessions are led by experienced TAs; cover recent significant papers
             in AI/ML safety; and meet weekly in small groups. Dinner is provided
             and there is no additional work outside of meetings.
           </p>
 
-          <p className="text-xl mb-6">
-            Learn more by joining our Slack.
-          </p>
-          {/* <a
-            href="#"
-            className="inline-block bg-cornell-red text-white px-8 py-4 rounded-md hover:bg-opacity-90 transition"
+          <a
+            href="https://join.slack.com/t/cornellaialignment/shared_invite/zt-2xsts4ngh-vCpBuKQFj4IgtHN0dqPE7w"
+            className="inline-block bg-cornell-red text-bold text-white px-4 py-3 rounded-lg bg-opacity-90 transition mb-10"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            Apply here by February 9, 2025, 11:59pm EST.
-          </a> */}
+            Join the CAIA Slack
+          </a>
         </div>
 
         <div className="max-w-4xl">
@@ -74,9 +104,15 @@ export default function GetInvolved() {
 
           <p className="text-xl mb-6">
             CAIA supports original student research in AI safety. If you are
-            interested in beginning technical or policy research, reach out to
-            cornellaialignment@gmail.com to be connected with resources and a
-            faculty or upperclassman mentor.
+            interested in beginning technical or policy research, reach out to{" "}
+            <a
+              href="mailto:cornellaialignment@gmail.com"
+              className="text-cornell-red hover:underline"
+            >
+              cornellaialignment@gmail.com
+            </a>{" "}
+            to be connected with resources and a faculty or upperclassman
+            mentor.
           </p>
 
           {/* <a

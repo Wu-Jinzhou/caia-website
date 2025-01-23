@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Header() {
   return (
     <header className="border-b">
-      <div className="container mx-auto px-4 py-8 flex justify-between items-center">
+      <div className="container mx-auto px-4 py-8 flex justify-between items-center max-w-6xl">
         <Link href="/" className="text-cornell-red">
           <Image
             src="/serif-logo.svg"
