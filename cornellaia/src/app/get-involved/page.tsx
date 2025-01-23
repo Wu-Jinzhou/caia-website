@@ -46,7 +46,7 @@ export default function GetInvolved() {
           <p className="text-xl mb-8">
             The fellowship meets weekly in small groups, with dinner provided
             and no additional work outside of meetings. Our curriculum is
-            adapted from OpenAI's{" "}
+            adapted from OpenAI&apos;s{" "}
             <a
               href="https://course.aisafetyfundamentals.com/alignment"
               className="text-cornell-red hover:underline"
