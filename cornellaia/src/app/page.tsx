@@ -10,33 +10,44 @@ export default function Home() {
     <>
       <main className="">
         <div className="container mx-auto px-4 py-12">
-          <div className="max-w-4xl">
-            <h1
-              className={`text-6xl font-bold text-cornell-red mb-8 tracking-tighter ${youngSerif.className}`}
-            >
-              AI will change the world as we know it.
-            </h1>
+          <div className="max-w-6xl flex items-center gap-8 mx-auto">
+            <div>
+              <h1
+                className={`text-6xl font-bold text-cornell-red mb-8 tracking-tighter ${youngSerif.className}`}
+              >
+                AI will change the world as we know it.
+              </h1>
 
-            <p className="text-xl italic mb-8">
-              Let&apos;s ensure those changes are positive.
-            </p>
-            <a
-              href="https://airtable.com/appWFSZWeVJ4rXa6l/pag8SMoRy0Hm9knXF/form"
-              className="text-xl text-gray-600 hover:underline mb-4 inline-block"
-            >
-              Join our mailing list →
-            </a>
-            {/* <div className="mb-12 mt-8">
-              <p className="text-xl mb-4">
-                Apply to our Intro to ML Safety Fellowship, by [Date] here:
+              <p className="text-2xl italic mb-8">
+                We conduct research and outreach to advance the development of
+                safe AI.
               </p>
               <a
-                href="#"
-                className="inline-block bg-cornell-red text-white px-8 py-4 rounded-md hover:bg-opacity-90 transition"
+                href="https://airtable.com/appWFSZWeVJ4rXa6l/pag8SMoRy0Hm9knXF/form"
+                className="text-2xl text-gray-600 hover:underline mb-4 inline-block"
               >
-                CAIA Fellowship
+                Join our mailing list →
               </a>
-            </div> */}
+              {/* <div className="mb-12 mt-8">
+                <p className="text-xl mb-4">
+                  Apply to our Intro to ML Safety Fellowship, by [Date] here:
+                </p>
+                <a
+                  href="#"
+                  className="inline-block bg-cornell-red text-white px-8 py-4 rounded-md hover:bg-opacity-90 transition"
+                >
+                  CAIA Fellowship
+                </a>
+              </div> */}
+            </div>
+            <div className="flex-shrink-0">
+              <img
+                src="/Title2.jpg"
+                alt="AI illustration"
+                className="w-[600px] object-contain"
+                // className="w-[500px] object-contain -rotate-90"
+              />
+            </div>
           </div>
         </div>
       </main>
@@ -44,31 +55,42 @@ export default function Home() {
       <section className="bg-gray-100 py-12">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl">
-            <p className="text-xl mb-8">
+            {/* <p className="text-xl mb-8">
               We&apos;re a group of Cornell students dedicated to reducing risks
               from advanced artificial intelligence and shaping its development
               for the better.
-            </p>
+            </p> */}
 
             <p className="text-xl mb-4">
-              We think that reducing risks from advanced AI is{" "}
-              <span className="italic text-cornell-red">
-                one of the most important problems of our time
+              Managing risks from advanced artificial intelligence is one of the
+              most important problems of our time.
+              <span className="text-cornell-red">
+                <sup>
+                  <a
+                    href="https://arxiv.org/pdf/2310.17688"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    1
+                  </a>
+                </sup>
               </span>
-              . Why?
+              We are a community of student technical and policy researchers at
+              Cornell, working to reduce these risks and steer the trajectory of
+              AI development for the better.
             </p>
 
-            <div className="text-lg mb-8 space-y-2">
-              <p className={`pl-4 ${youngSerif.className}`}>
+            {/* <div className="text-lg mb-8 space-y-2">
+              <p className="pl-4">
                 <span className="text-cornell-red">1.</span> Experts predict
                 that we likely will see human-level AI within our lifetimes.
               </p>
-              <p className={`pl-4 ${youngSerif.className}`}>
+              <p className="pl-4">
                 <span className="font-bold text-cornell-red">2.</span> Aligning
                 powerful AI systems with human values is an extremely difficult,
                 and currently neglected, technical and policy problem.
               </p>
-              <p className={`pl-4 ${youngSerif.className}`}>
+              <p className="pl-4">
                 <span className="font-bold text-cornell-red">3.</span> The
                 stakes of AI alignment are enormous: succeeding could bring
                 about unprecedented human flourishing, while failure could
@@ -79,20 +101,90 @@ export default function Home() {
                 exciting problem, with open opportunities for many more
                 researchers to make meaningful progress.
               </p>
-            </div>
+            </div> */}
 
             <p className="text-xl mb-8">
-              CAIA runs an 8-week introductory AI alignment fellowship, covering
-              topics like neural network interpretability, learning from human
-              feedback, goal misgeneralization, eliciting latent knowledge, and
-              evaluating dangerous model capabilities.
+              CAIA runs a semester-long{" "}
+              <a
+                href="/get-involved"
+                className="text-cornell-red underline hover:no-underline"
+              >
+                Introduction to AI Alignment fellowship
+              </a>
+              , covering topics like neural network interpretability,
+              <span className="text-cornell-red">
+                <sup>
+                  <a
+                    href="https://distill.pub/2020/circuits/zoom-in/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    2
+                  </a>
+                </sup>
+              </span>{" "}
+              learning from human feedback,
+              <span className="text-cornell-red">
+                <sup>
+                  <a
+                    href="https://arxiv.org/abs/2009.01325"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    3
+                  </a>
+                </sup>
+              </span>{" "}
+              goal misgeneralization in reinforcement learning agents,
+              <span className="text-cornell-red">
+                <sup>
+                  <a
+                    href="https://arxiv.org/abs/2105.14111"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    4
+                  </a>
+                </sup>
+              </span>{" "}
+              eliciting latent knowledge,
+              <span className="text-cornell-red">
+                <sup>
+                  <a
+                    href="https://arxiv.org/abs/2212.03827"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    5
+                  </a>
+                </sup>
+              </span>{" "}
+              and evaluating dangerous capabilities in models.
+              <span className="text-cornell-red">
+                <sup>
+                  <a
+                    href="https://evals.alignment.org/Evaluating_LMAs_Realistic_Tasks.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    6
+                  </a>
+                </sup>
+              </span>{" "}
             </p>
 
             <p className="text-xl mb-8">
-              We also run reading groups in technical machine learning and
-              policy tracks. Finally, we support undergraduate and graduate
-              students in conducting original research relevant to reducing
-              risks from advanced AI.
+              We also run an intermediate-level{" "}
+              <a
+                href="/get-involved"
+                className="text-cornell-red underline hover:no-underline"
+              >
+                technical reading group
+              </a>
+              , where we discuss relevant contemporary ML papers in AI safety.
+              Finally, we support undergraduate and graduate students in
+              conducting original research relevant to AI safety, and host
+              workshops and socials.
             </p>
 
             <p className="text-xl mb-8">
@@ -180,13 +272,13 @@ export default function Home() {
           <h2 className="text-3xl mb-12">Sponsors and Organizations</h2>
 
           <div className="grid grid-cols-1 md:grid-cols-4 gap-16 mb-8">
-            <div className="flex items-center justify-center">
+            {/* <div className="flex items-center justify-center">
               <img
                 src="/openphil.png"
                 alt="Open Philanthropy"
                 className="max-h-24"
               />
-            </div>
+            </div> */}
             <div className="flex items-center justify-center">
               <img src="/rand.svg" alt="RAND" className="max-h-24" />
             </div>
