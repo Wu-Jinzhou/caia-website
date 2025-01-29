@@ -68,10 +68,10 @@ export default function GetInvolved() {
           </p>
 
           <a
-            href="#"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfa6OQUipQmUAjODi1I2ygYAeCk1sp112mjUGRtI3MnUdFIgw/viewform?fbzx=-2352693528615737036"
             className="inline-block bg-cornell-red text-bold text-white px-4 py-3 rounded-lg bg-opacity-90 transition mb-10"
           >
-            Apply here by February 9, 2025, 11:59pm EST.ADD THE LINK!
+            Apply here by February 9, 2025, 11:59pm EST.
           </a>
         </div>
 
