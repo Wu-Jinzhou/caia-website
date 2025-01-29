@@ -275,7 +275,7 @@ export default function Resources() {
               naturally occurring text, they often reproduce common human errors
               and misconceptions, even when they &quot;know better&quot; in some
               sense. More worryingly, when models are trained to generate text
-              that's rated highly by humans, they may learn to output false
+              that&apos;s rated highly by humans, they may learn to output false
               statements that human evaluators can&apos;t detect. One attempt to
               circumvent this issue is by directly eliciting latent knowledge
               inside the activations of a language model.
@@ -308,8 +308,8 @@ export default function Resources() {
               misaligned (&quot;alignment evaluations&quot; or &quot;safety
               evaluations&quot;). Working on AI evaluations might involve
               developing standards and enforcing compliance with the standards.
-              Evaluations can help labs determine whether it's safe to deploy
-              new models, and can help with AI governance and regulation.
+              Evaluations can help labs determine whether it&apos;s safe to
+              deploy new models, and can help with AI governance and regulation.
             </p>
             <p>A couple good papers:</p>
             <ul className="ml-4 space-y-2">
@@ -432,8 +432,8 @@ export default function Resources() {
               </li>
               <li>
                 <strong>
-                  AI Policy Levers: A Review of the U.S. Government's Tools to
-                  Shape AI Research, Development, and Deployment
+                  AI Policy Levers: A Review of the U.S. Government&apos;s Tools
+                  to Shape AI Research, Development, and Deployment
                 </strong>{" "}
                 (Fischer et al., 2021). Fischer et al. give a high-level
                 overview of the many options available to the U.S. federal
@@ -445,8 +445,9 @@ export default function Resources() {
                 cutting-edge AI systems are one of the inputs to AI development
                 most amenable to regulatory intervention. In this paper,
                 researchers from the Center for Security and Emerging Technology
-                explain the basic dynamics that govern these chips' development
-                and production, and discuss their strategic importance.
+                explain the basic dynamics that govern these chips&apos;
+                development and production, and discuss their strategic
+                importance.
               </li>
               <li>
                 <strong>
@@ -498,8 +499,8 @@ export default function Resources() {
                 </strong>{" "}
                 (Brundage et al., 2020). For a licensing and auditing regime to
                 be effective, it needs to be enforceable. This paper describes
-                some ways in which AI developers' claims might be verified by a
-                third party.
+                some ways in which AI developers&apos; claims might be verified
+                by a third party.
               </li>
               <li>
                 <strong>
@@ -581,7 +582,7 @@ export default function Resources() {
                 <strong>
                   The Windfall Clause: Distributing the Benefits of AI
                 </strong>{" "}
-                (O'Keefe et al., 2020). A central structural risk posed by
+                (O&apos;Keefe et al., 2020). A central structural risk posed by
                 advanced AI development is that of extreme economic
                 concentration and correspondingly extreme inequality. If a few
                 AI developers rapidly develop the ability to automate large
