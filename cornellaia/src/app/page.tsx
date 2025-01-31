@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <main className="">
         <div className="container mx-auto px-4 py-12">
-          <div className="max-w-6xl flex items-center gap-8 mx-auto">
+          <div className="max-w-6xl flex flex-col items-center gap-8 mx-auto">
             <div>
               <h1
                 className={`text-6xl font-bold text-cornell-red mb-8 tracking-tighter ${youngSerif.className}`}
